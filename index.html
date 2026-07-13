@@ -7,40 +7,107 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FRAGMENTO</title>
+    <title>FRAGMENTO - AI Thought Organizer</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+ 
+
+    <link rel="stylesheet" href="finale_style.css">
+    <link rel="icon" href="fragmento.png">
 
 </head>
-
+   
 <body>
-    <main>
-        <header>
-            <h1>FRAGMENTO</h1>
-            <p>Turn scattered thoughts into clarity.</p>
-        </header>
 
+ <section id="hero">
 
-        <section>
-            <textarea id = "Fragments" placeholder = "Write anything that's on your mind..." > </textarea>
+    <img src="fragmento.png" alt="Fragmento Logo" class="hero-logo">
 
-        <div>
-        <span id = "counter"> Characters : 0 </span>
+    <h1>FRAGMENTO</h1>
+
+    <p>
+        Organize your scattered thoughts<br>
+        into meaningful ideas.
+    </p>
+
+    <button id="startbtn">
+        ✨ Start Writing
+    </button>
+
+    <div class="hero-footer">
+        Fast • Private • AI Powered
+    </div>
+    </section>
+
+    <main id="workspace">
+        <nav class="topbar">
+
+    <div class="brand">
+        ✦ Fragmento
+    </div>
+
+    <div class="topbar-actions">
+
+        <button id="homeBtn">🏠 Home</button>
+
+        <button id="trashBtn" class = "coming-soon" >🗑 Trash</button>
+
+        <button id="themeBtn">🌙 Theme</button>
+
+    </div>
+
+</nav>
+
+        <div class="container">
+
+ <header class="app-header">
+
+    <div class="logo-box">
+
+        <img src="fragmento.png" alt="Fragmento Logo">
+
+        <h1>FRAGMENTO</h1>
+
+    </div>
+
+    <p>AI Powered Thought Organizer</p>
+
+</header>
+
+            <section>
+
+                <textarea id="fragments"
+                placeholder="Write anything that's on your mind..."></textarea>
+
+                <div>
+                    <span id="counter">Characters : 0/5000</span>
+                </div>
+
+                <div class="buttons">
+                    <button id ="aiBtn" class = "coming-soon">🤖 AI Organize</button> 
+                    <button id="organizebtn">Organize</button>
+                    <button id="clearbtn">Clear</button>
+                </div>
+
+                <section id="result"></section>
+
+            </section>
+
         </div>
-
-        <div class = "buttons" >
-        <button id = "organizebtn">Organize</button>
-        <button id = "clearbtn">Clear</button>
-        </div>
-
-                </section>
 
     </main>
-    
-    
+    <footer class="footer">
+    <p>© 2026 · Designed & Developed by Devendra Bhargav</p>
+</footer>
+
+    <script src="script_three.js"></script>
 
 </body>
 
-<script src="script.js"></script>
-
 </html>
+
