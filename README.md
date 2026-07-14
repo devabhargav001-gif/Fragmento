@@ -24,6 +24,7 @@ Whether it's a random idea, a task, a question, or a quick note, Fragmento provi
 - HTML5
 - CSS3
 - JavaScript
+- Local & session storage
 
 ---
 
@@ -44,6 +45,12 @@ Grids page
  
 
 ## 🚀 Live Demo
+
+gif
+![Fragmento Demo](https://github.com/devabhargav001-gif/Fragmento/blob/main/FragmentoLiveDemo-ezgif.com-optimize.gif)
+
+
+full video link
  https://github.com/devabhargav001-gif/Fragmento/blob/main/FragmentoLiveDemo.mov
 
 ---
@@ -51,7 +58,7 @@ Grids page
 ## 💻 GitHub Repository
 
 **Repository:**  
-https://github.com/yourusername/Fragmento
+https://github.com/devabhargav001-gif/Fragmento
 
 ---
 
@@ -64,12 +71,15 @@ Fragmento/
 ├── finale_style.css
 ├── script_three.js
 ├── fragmento.png
+├── all images
+├── demo videos
 └── README.md
+
 ```
 
 ---
 
-## 🔮 Roadmap
+## 🔮 Roadmap for v2
 
 - 🤖 AI Thought Organization
 - 🗑 Trash & Restore
