@@ -747,7 +747,7 @@ box-shadow:
 
         justify-content:center;
 
-        flex-direction:column;
+        flex-direction:centre;
 
         text-align:center;
 
@@ -756,6 +756,7 @@ box-shadow:
     }
 
     .logo-box img{
+        
 
         width:90px;
 
@@ -764,6 +765,7 @@ box-shadow:
     }
 
     .logo-box h1{
+        justify-content: centre;
 
         font-size:28px;
 
