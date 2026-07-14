@@ -28,6 +28,9 @@ Whether it's a random idea, a task, a question, or a quick note, Fragmento provi
 ---
 
 ## 📸 Screenshots
+Hero page
+![Intro Page](https://github.com/devabhargav001-gif/Fragmento/blob/main/Intro%20Page.png)
+
 
  
 
