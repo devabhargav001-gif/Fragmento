@@ -30,8 +30,12 @@ Whether it's a random idea, a task, a question, or a quick note, Fragmento provi
 ## 📸 Screenshots
 Hero page
 ![Intro Page](https://github.com/devabhargav001-gif/Fragmento/blob/main/Intro%20Page.png)
+
 Workspace
 ![workspace](https://github.com/devabhargav001-gif/Fragmento/blob/main/Workspace.png)
+
+Textarea	
+![textarea](https://github.com/devabhargav001-gif/Fragmento/blob/main/TextArea.png)
 
 Grids page
 ![grids](https://github.com/devabhargav001-gif/Fragmento/blob/main/gridsTAsk.png)
